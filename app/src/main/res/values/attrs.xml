@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 底部按钮附加属性 -->
+    <declare-styleable name="BottomRadioButton">
+        <attr name="focus_icon" format="reference" />
+        <attr name="defocus_icon" format="reference" />
+        <attr name="focus_color" format="color" />
+    </declare-styleable>
+
+
+</resources>

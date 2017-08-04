@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rxd.mychat.ui.activity.SetNewPwdActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="48dp" >
+
+        <EditText
+            android:id="@+id/new_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/edittext_login"
+            android:hint="填写密码"
+            android:paddingLeft="90dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColorHint="#DDDDDD"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/set_tv_password"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/et_password"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/password"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="48dp" >
+
+        <EditText
+            android:id="@+id/new_et_password_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/edittext_login"
+            android:hint="填写密码"
+            android:paddingLeft="90dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColorHint="#DDDDDD"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/set_tv_password_second"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/et_password"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/password"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_set_done"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/btn_enable_green"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="完成"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

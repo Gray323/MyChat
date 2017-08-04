@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Toolbar.Menu" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- 设置字体颜色-->
+        <item name="android:textColor">@color/colorwhite</item>
+        <!-- 设置字体大小 -->
+        <item name="android:textSize">@dimen/toolbar_size</item>
+        <!-- 用于替换菜单的三个小白点，换成自己的图片 -->
+        <item name="android:actionOverflowButtonStyle">@style/ActionButton.Overflow.Menu</item>
+        <item name="android:actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+</resources>

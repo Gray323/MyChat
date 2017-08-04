@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true">
+
+    <!-- 底部导航 -->
+    <com.rxd.mychat.widget.BottomRadioGroup
+        android:id="@+id/bottom_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal">
+        
+        <com.rxd.mychat.widget.BottomRadioButton
+            android:id="@+id/brb_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:textColor="#555"
+            android:textSize="13sp"
+            android:checked="true"
+            app:focus_color="#50ba26"
+            android:text="@string/bottom_chat"
+            app:focus_icon="@mipmap/chats_green"
+            app:defocus_icon="@mipmap/chats"/>
+
+        <com.rxd.mychat.widget.BottomRadioButton
+            android:id="@+id/brb_contact"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:textColor="#555"
+            android:textSize="13sp"
+            app:focus_color="#50ba26"
+            android:text="@string/bottom_contact"
+            app:focus_icon="@mipmap/contacts_green"
+            app:defocus_icon="@mipmap/contacts"/>
+
+        <com.rxd.mychat.widget.BottomRadioButton
+            android:id="@+id/brb_discover"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:textColor="#555"
+            android:textSize="13sp"
+            app:focus_color="#50ba26"
+            android:text="@string/bottom_discover"
+            app:focus_icon="@mipmap/discover_green"
+            app:defocus_icon="@mipmap/discover"
+            />
+
+        <com.rxd.mychat.widget.BottomRadioButton
+            android:id="@+id/brb_about_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:textColor="#555"
+            android:textSize="13sp"
+            app:focus_color="#50ba26"
+            android:text="@string/bottom_me"
+            app:focus_icon="@mipmap/about_me_green"
+            app:defocus_icon="@mipmap/about_me"/>
+        
+    </com.rxd.mychat.widget.BottomRadioGroup>
+
+</RelativeLayout>

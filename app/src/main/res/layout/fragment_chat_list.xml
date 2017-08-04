@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rxd.mychat.ui.fragment.ChatListFragment">
+
+    <include
+        android:id="@+id/rl_nonet_error"
+        layout="@layout/layout_no_network"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_chat_list"
+        android:layout_below="@+id/rl_nonet_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_no_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@mipmap/no_chat"
+        android:text="@string/no_chat"
+        android:textSize="16sp"
+        android:textColor="@color/color_no_chat"
+        android:visibility="gone"/>
+    
+</RelativeLayout>

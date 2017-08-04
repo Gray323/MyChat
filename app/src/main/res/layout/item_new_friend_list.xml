@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/rl_new_friend_list">
+
+    <ImageView
+        android:id="@+id/new_friend_list_iv_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/new_friend_list_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/new_friend_list_iv_avatar"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/new_friend_list_add_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:text="已添加"/>
+
+    <Button
+        android:id="@+id/btn_agree_new"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_enable_green"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/agree_add"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

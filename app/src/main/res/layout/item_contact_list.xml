@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <RelativeLayout
+        android:id="@+id/item_rl_section"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#E0E0E0">
+
+        <TextView
+            android:id="@+id/contact_tv_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#454545"
+            android:text="M"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/item_rl_section">
+
+        <ImageView
+            android:id="@+id/contact_iv_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_avatar"/>
+
+        <TextView
+            android:id="@+id/contact_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="某某某"
+            android:layout_toRightOf="@+id/contact_iv_avatar"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+
+    </RelativeLayout>
+
+
+    
+</RelativeLayout>

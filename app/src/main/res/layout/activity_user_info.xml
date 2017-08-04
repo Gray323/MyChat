@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:background="@color/black2"
+                android:layout_width="match_parent"
+                android:layout_height="1.0dip" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_item_selector"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:id="@+id/user_info_avatar"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/default_avatar" />
+
+                <TextView
+                    android:id="@+id/user_info_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/user_info_avatar"
+                    android:textSize="18.0dip" />
+
+                <TextView
+                    android:id="@+id/user_info_username"
+                    style="@style/txt_ContextStyle1"
+                    android:layout_below="@+id/user_info_name"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/user_info_avatar"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/iv_userinfo_sex"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_toRightOf="@+id/user_info_name"
+                    android:src="@mipmap/ic_sex_female" />
+            </RelativeLayout>
+            <View
+                android:background="@color/black2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/setting_item_selector">
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_info_email"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/userinfo_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp" />
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/setting_item_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_info_org"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/userinfo_org"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/setting_item_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_info_signature"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/userinfo_signnature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_to_add_friend"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btn_enable_green"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:text="@string/to_add_friend"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

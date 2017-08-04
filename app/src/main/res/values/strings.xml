@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">MyChat</string>
+
+    <!-- Relatived to main toolbar-->
+    <string name="toolbar_chatroom">发起群聊</string>
+    <string name="toolbar_add_friend">添加朋友</string>
+    <string name="toolbar_qr">扫一扫</string>
+    <string name="toolbar_payment">收付款</string>
+    <string name="toolbar_help">帮助与反馈</string>
+
+    <!-- Relatived to main layout -->
+    <string name="bottom_chat">聊天</string>
+    <string name="bottom_contact">通讯录</string>
+    <string name="bottom_discover">发现</string>
+    <string name="bottom_me">我</string>
+    <string name="net_error_msg">当前网络不可用，请检查网络配置</string>
+    <string name="no_chat">暂时没有新消息</string>
+
+    <!-- Relatived to discover layout -->
+    <string name="discover_friend_circle">朋友圈</string>
+    <string name="discover_qr">扫一扫</string>
+    <string name="discover_shake">摇一摇</string>
+    <string name="discover_nearby">附近的人</string>
+    <string name="discover_bottle">漂流瓶</string>
+    <string name="discover_shopping">购物</string>
+    <string name="discover_game">游戏</string>
+
+    <!-- Relatived to about me layout -->
+    <string name="about_photo">相册</string>
+    <string name="about_collection">收藏</string>
+    <string name="about_money">钱包</string>
+    <string name="about_card">卡包</string>
+    <string name="about_expression">表情</string>
+    <string name="about_setting">设置</string>
+
+    <!-- Relatived to about login and register layout -->
+    <string name="countries_and_areas">国家和地区</string>
+    <string name="china">中国</string>
+    <string name="your_phone">你的手机号码</string>
+    <string name="password">密码</string>
+    <string name="no_account">请输入您的账号</string>
+    <string name="no_password">请输入您的密码</string>
+    <string name="login_fail">登录失败，请检您的网络是否正常以及用户名和密码是否正确</string>
+    <string name="error_phone">请输入正确的手机号格式</string>
+    <string name="error_password">请输入正确的密码格式，不包含特殊字符</string>
+    <string name="reg_error1">注册成功</string>
+    <string name="reg_error0">注册失败，服务器异常，请稍后重试</string>
+    <string name="reg_error2">注册失败，该账号已被注册</string>
+    <string name="reg_error3">注册失败，请稍后重试</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="login_with_pro">登陆遇到问题？</string>
+    <string name="code">验证码</string>
+    <string name="send_code">发送验证码</string>
+    <string name="recommended_friends">新的朋友</string>
+    <string name="group_chats">群聊</string>
+
+    <!-- Relatived to about forget password layout -->
+    <string name="forget_next">下一步</string>
+    <string name="set_forget_account">填写您的手机号</string>
+
+    <!-- Relatived to about setting layout -->
+    <string name="accout_safe">账户安全</string>
+    <string name="new_info">新消息通知</string>
+    <string name="yinsi">隐私</string>
+    <string name="common_setting">通用设置</string>
+    <string name="app_about">关于聊天</string>
+    <string name="exit">退出登录</string>
+    <string name="setting">设置</string>
+
+    <!-- Relatived to new friend layout -->
+    <string name="new_friend">新的朋友</string>
+    <string name="add_new_friend">添加朋友</string>
+    <string name="to_add_friend">添加为好友</string>
+    <string name="agree_add_state">已添加</string>
+    <string name="agree_add">同意</string>
+
+    <!-- Relatived to my info layout -->
+    <string name="my_info_avatar">头像</string>
+    <string name="my_info_nickname">昵称</string>
+    <string name="my_info_account">账号</string>
+    <string name="my_info_gender">性别</string>
+    <string name="my_info_email">Eamil</string>
+    <string name="my_info_org">地区</string>
+    <string name="my_info_signature">个性签名</string>
+    <string name="more_info">详细资料</string>
+
+    <!-- Relatived to choose photo layout -->
+    <string name="image">图片</string>
+    <string name="confirm">确定</string>
+    <string name="preview">预览</string>
+    <string name="select">选择</string>
+
+
+    <!-- Relatived to basic info layout -->
+    <string name="nickname_hint">请修改您的昵称</string>
+    <string name="email_hint">请修改您的Email</string>
+    <string name="signature_hint">请修改您的个性签名</string>
+    <string name="change_nickname">修改昵称</string>
+    <string name="change_email">修改邮箱</string>
+    <string name="change_signature">修改个性签名</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_choose_photo">ChoosePhotoActivity</string>
+
+</resources>

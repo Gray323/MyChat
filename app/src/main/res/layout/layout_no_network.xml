@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/color_nonet_bg">
+
+    <ImageView
+        android:id="@+id/iv_net_err"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/icon_tip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_net_err"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/net_error_msg"
+        android:layout_toRightOf="@+id/iv_net_err"
+        android:layout_marginLeft="20dp"/>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_nonet_line"/>
+
+</RelativeLayout>

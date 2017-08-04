@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bar_color">#232325</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="gray">#ff808080</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="greeny">#ff11aca6</color>
+    <color name="greeny_normal">#cc11aca6</color>
+    <color name="red">#FC2828</color>
+    <color name="black">#ff000000</color>
+
+    <color name="windows_color">#F5F5F5</color>
+    <color name="color_nonet_bg">#FFF3BB</color>
+    <color name="color_nonet_line">#E3E0D5</color>
+    <color name="color_no_chat">#7A7E83</color>
+
+</resources>
